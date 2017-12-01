@@ -1,6 +1,6 @@
-# Scripts to generate THE WAVELETS, a National Novel Generation Month entry
+# Scripts to generate THE WAVELETS
 
-This is a completely bonkers idea, and I do not endorse it.
+A National Novel Generation Month 2017 entry
 
 ## Dependencies
 
@@ -14,11 +14,12 @@ This is a completely bonkers idea, and I do not endorse it.
 ## Steps
 
 1. Preprocess
-  * Drop the text in the same directory as the scripts as `waves.txt`.
-  * The text of *The Waves* at the above link has special characters (smart quotes and em dashes) which are not represented in `novel-vectors-word2vec`. I did a lazy search-and-replace to convert those to `'`, `''`, and `--`.
+   * Drop the text in the same directory as the scripts as `waves.txt`.
+   * The text of *The Waves* at the above link has special characters (smart quotes and em dashes) which are not represented in `novel-vectors-word2vec`. I did a lazy search-and-replace to convert those to `'`, `''`, and `--`.
 1. `groovy tokenize.groovy`
 1. `groovy encode-transform.groovy`
 1. `python3 vecs2text.py`
+
 Output will be in `the-wavelets.txt`.
 
 ## Future work
