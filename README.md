@@ -1,6 +1,8 @@
 # Scripts to generate THE WAVELETS
 
-A National Novel Generation Month 2017 entry
+### A National Novel Generation Month 2017 entry
+
+The idea of this project was to take the word-vector-space projection of a novel and perform a wavelet transform on it. The results of wavelet transforms on images can produce a sort of ghostly expansion, and I thought it would be worth seeing what that might look like on text.
 
 ## Dependencies
 
@@ -26,6 +28,8 @@ Output will be in `the-wavelets.txt`.
 
 * [The Wavelets](https://gist.github.com/danuep/8ba4e4d51293b4f33d4289ceb5fcb97e)
 * Bonus: [Haar of Darkness](https://gist.github.com/danuep/46d3c76be8f42685b7f77e76c57343fa) (Haar wavelet transform of Conrad's *Heart of Darkness*)
+
+The results are slightly entertaining, but iffy as a legible text. It's reassuring to see that the average value for both texts (the first word in the transformed text) roughly aligns with the mood of the text. Subsequent words represent the differences between sections of text, which I think is harder to intuit than pixel values representing differences in sections of an image. (Specifically, the second-through-fourth words of *The Wavelets* tells us that the second half of *The Waves* is more `Grandmother` than the first, the second quarter is more `Mas'r` than the first, and the last quarter more `Meadows` than the third).
 
 ## Future work
 
