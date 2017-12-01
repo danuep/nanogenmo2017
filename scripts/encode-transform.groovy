@@ -60,9 +60,9 @@ encoded.eachWithIndex { entry, index ->
     }
 }
 
-Transform t = new jwave.Transform( 
-               new jwave.transforms.AncientEgyptianDecomposition(
-                new jwave.transforms.FastWaveletTransform( 
+def t = new jwave.Transform(
+               new jwave.transforms.AncientEgyptianDecomposition( // for arbitrary-length sequences
+                new jwave.transforms.FastWaveletTransform(
                  new jwave.transforms.wavelets.daubechies.Daubechies8( ) ) ) )
 def transformed = streams.collect {
     t.forward( it )
