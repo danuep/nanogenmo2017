@@ -22,7 +22,7 @@ A National Novel Generation Month 2017 entry
 
 Output will be in `the-wavelets.txt`.
 
-# Results
+## Results
 
 * [The Wavelets](https://gist.github.com/danuep/8ba4e4d51293b4f33d4289ceb5fcb97e)
 * Bonus: [Haar of Darkness](https://gist.github.com/danuep/46d3c76be8f42685b7f77e76c57343fa) (Haar wavelet transform of Conrad's *Heart of Darkness*)
