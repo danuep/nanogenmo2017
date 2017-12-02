@@ -2,7 +2,7 @@
 
 ### A National Novel Generation Month 2017 entry
 
-The idea of this project was to take the word-vector-space projection of a novel and perform a wavelet transform on it. The results of wavelet transforms on images can produce a sort of ghostly expansion, and I thought it would be worth seeing what that might look like on text.
+The idea of this project was to take the word-vector-space projection of a novel and perform a wavelet transform on it. The results of wavelet transforms on images can produce an effect of ghostly, echoing expansion, and I thought it would be worth seeing what that might look like on text.
 
 ## Dependencies
 
